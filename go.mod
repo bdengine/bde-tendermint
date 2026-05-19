@@ -1,11 +1,10 @@
 module github.com/tendermint/tendermint
 
-go 1.17
+go 1.25
 
 require (
 	github.com/BurntSushi/toml v1.0.0
 	github.com/adlio/schema v1.2.3
-	github.com/btcsuite/btcd v0.22.0-beta
 	github.com/btcsuite/btcutil v1.0.3-0.20201208143702-a53e38424cce
 	github.com/fortytw2/leaktest v1.3.0
 	github.com/go-kit/kit v0.12.0
@@ -14,7 +13,7 @@ require (
 	github.com/golangci/golangci-lint v1.43.0
 	github.com/google/orderedcode v0.0.1
 	github.com/google/uuid v1.3.0
-	github.com/gorilla/websocket v1.4.2
+	github.com/gorilla/websocket v1.5.3
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/lib/pq v1.10.4
@@ -29,15 +28,15 @@ require (
 	github.com/snikch/goodman v0.0.0-20171125024755-10e37e294daa
 	github.com/spf13/cobra v1.3.0
 	github.com/spf13/viper v1.10.1
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.10.0
 	github.com/tendermint/tm-db v0.6.6
 	github.com/vektra/mockery/v2 v2.9.4
-	golang.org/x/crypto v0.0.0-20211215165025-cf75a172585e
-	golang.org/x/net v0.0.0-20211208012354-db4efeb81f4b
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
+	golang.org/x/crypto v0.40.0
+	golang.org/x/net v0.41.0
+	golang.org/x/sync v0.16.0
 	google.golang.org/grpc v1.43.0
 	gopkg.in/check.v1 v1.0.0-20200902074654-038fdea0a05b // indirect
-	pgregory.net/rapid v0.4.7
+	pgregory.net/rapid v1.2.0
 )
 
 require (
@@ -95,7 +94,7 @@ require (
 	github.com/go-xmlfmt/xmlfmt v0.0.0-20191208150333-d5b6f63a941b // indirect
 	github.com/gobwas/glob v0.2.3 // indirect
 	github.com/gofrs/flock v0.8.1 // indirect
-	github.com/golang/snappy v0.0.3 // indirect
+	github.com/golang/snappy v1.0.0 // indirect
 	github.com/golangci/check v0.0.0-20180506172741-cfe4005ccda2 // indirect
 	github.com/golangci/dupl v0.0.0-20180902072040-3e9179ac440a // indirect
 	github.com/golangci/go-misc v0.0.0-20180628070357-927a3d87b613 // indirect
@@ -106,7 +105,7 @@ require (
 	github.com/golangci/revgrep v0.0.0-20210930125155-c22e5001d4f2 // indirect
 	github.com/golangci/unconvert v0.0.0-20180507085042-28b1c447d1f4 // indirect
 	github.com/google/btree v1.0.0 // indirect
-	github.com/google/go-cmp v0.5.6 // indirect
+	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/gordonklaus/ineffassign v0.0.0-20210225214923-2e10b2664254 // indirect
 	github.com/gostaticanalysis/analysisutil v0.7.1 // indirect
 	github.com/gostaticanalysis/comment v1.4.2 // indirect
@@ -173,10 +172,10 @@ require (
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/ssgreg/nlreturn/v2 v2.2.1 // indirect
-	github.com/stretchr/objx v0.1.1 // indirect
+	github.com/stretchr/objx v0.5.2 // indirect
 	github.com/subosito/gotenv v1.2.0 // indirect
 	github.com/sylvia7788/contextcheck v1.0.4 // indirect
-	github.com/syndtr/goleveldb v1.0.1-0.20200815110645-5c35d600f0ca // indirect
+	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7 // indirect
 	github.com/tdakkota/asciicheck v0.0.0-20200416200610-e657995f937b // indirect
 	github.com/tecbot/gorocksdb v0.0.0-20191217155057-f0fad39f321c // indirect
 	github.com/tetafro/godot v1.4.11 // indirect
@@ -188,17 +187,16 @@ require (
 	github.com/uudashr/gocognit v1.0.5 // indirect
 	github.com/yeya24/promlinter v0.1.0 // indirect
 	go.etcd.io/bbolt v1.3.6 // indirect
-	golang.org/x/mod v0.5.0 // indirect
-	golang.org/x/sys v0.0.0-20220114195835-da31bd327af9 // indirect
-	golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1 // indirect
-	golang.org/x/text v0.3.7 // indirect
-	golang.org/x/tools v0.1.7 // indirect
-	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
+	golang.org/x/mod v0.25.0 // indirect
+	golang.org/x/sys v0.35.0 // indirect
+	golang.org/x/term v0.33.0 // indirect
+	golang.org/x/text v0.27.0 // indirect
+	golang.org/x/tools v0.34.0 // indirect
 	google.golang.org/genproto v0.0.0-20211208223120-3a66f561d7aa // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/ini.v1 v1.66.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 	honnef.co/go/tools v0.2.1 // indirect
 	mvdan.cc/gofumpt v0.1.1 // indirect
 	mvdan.cc/interfacer v0.0.0-20180901003855-c20040233aed // indirect
