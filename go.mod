@@ -1,6 +1,6 @@
 module github.com/tendermint/tendermint
 
-go 1.17
+go 1.21
 
 require (
 	github.com/BurntSushi/toml v1.0.0
@@ -17,7 +17,7 @@ require (
 	github.com/gorilla/websocket v1.4.2
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
-	github.com/lib/pq v1.10.4
+	github.com/lib/pq v1.12.3
 	github.com/libp2p/go-buffer-pool v0.0.2
 	github.com/mroth/weightedrand v0.4.1
 	github.com/oasisprotocol/curve25519-voi v0.0.0-20210609091139-0a56a4bca00b
